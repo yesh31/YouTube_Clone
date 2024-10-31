@@ -10,6 +10,7 @@ A simplified, static clone of the YouTube homepage, built using HTML and CSS. Th
 4. [Setup Instructions](#setup-instructions)
 5. [File Structure](#file-structure)
 6. [Credits](#credits)
+7. [Future Work](#future-work)
 
 ## Overview
 
@@ -52,3 +53,7 @@ This project is built with assets designed by supersimple.dev and is intended so
 ---
 
 This project provides an opportunity to explore layout techniques and practice building a structured, responsive user interface.
+
+## Future Work
+
+I'm planning to create responsive UI clone by adding JavaScript to the project. Establish routing and other web functionalities.

@@ -1,0 +1,234 @@
+* {
+    margin-left: 0;
+    padding: 0; 
+    background-color: white;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+    padding-left: 80px;
+}
+
+.video-grid {
+    padding-top: 60px;
+}
+
+.nav-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.middle {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+}
+
+.right {
+    display: flex;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.hamburger {
+    width: 25px;
+    margin-left: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.ytlogo img {
+    height: 20px;
+    padding-left: 20px; 
+}
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 20px; 
+    font-size: 16px;
+    outline: none;
+}
+
+.search-bar::placeholder {
+    font-family: Roboto, Arial;
+    padding-left: 10px;
+}
+
+.search-bar:focus {
+    color:black;
+}
+
+.search-button {
+    height: 39px;
+    width: 60px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    margin-left: -60.5px;
+}
+
+.mic-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: 10px;
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+
+.search-img {
+    width: 25px;
+    background-color: inherit;
+}
+
+.mic-img {
+    width: 25px;
+    background-color: inherit;
+}
+
+.upload-img {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-right: 20px;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+.apps-img {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+.notifications-img {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.user-pp {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 70px;
+}
+
+.home-button, .explore-button, .subscription-button, .originals-button, .yt-music-button, .library-button, .you-button {
+    width: 25px;
+    border: none;
+}
+
+.home-button, .explore-button, .subscription-button, .originals-button, .yt-music-button, .library-button, .you-button p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    background-color: inherit;
+}
+
+.home-img, .explore-img, .subscription-img, .originals-img, .yt-music-img, .library-img {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+
+.you-img {
+    margin-top: 20px;
+    width: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.thumbnail {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thumbnail-row {
+    margin-bottom: 12px;
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.video-author, .video-stats {
+    font-size: 14px;
+    color: #606060;
+}
+
+.video-title {
+    font-size: 15px; 
+    font-weight: 500; 
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+
+.video-author {
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+.video-stats {
+    margin-top: 5px;
+}
+
+.pp {
+    border-radius: 50px;
+    width: 36px;
+}
+
+.video-link {
+    text-decoration: none;
+    color: black;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}

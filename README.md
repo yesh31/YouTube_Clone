@@ -48,7 +48,7 @@ The primary files include:
 
 ## Credits
 
-This project is built with assets designed by supersimple.dev and is intended solely for educational and personal development purposes.
+A big thank you to SuperSimpleDev for the incredibly helpful YouTube tutorial that guided me through building this project. Their clear and structured explanations made it easy to follow along and understand each step.
 
 ---
 

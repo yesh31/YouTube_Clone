@@ -133,6 +133,19 @@ body {
     cursor: pointer;
 }
 
+.notification-count {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(206, 30, 30);
+    color: white;
+    width: 25px;
+    height: 20px;
+}
+
 .user-pp {
     height: 32px;
     display: flex;
@@ -186,6 +199,18 @@ body {
 
 .thumbnail-row {
     margin-bottom: 12px;
+    position: relative;
+}
+
+.timestamp {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+    padding: 4px;
+    margin: 0;
+    font-size: 15px;
 }
 
 .video-info-grid {
@@ -231,4 +256,28 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;
     row-gap: 30px;
+}
+
+@media (max-width: 749px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 750px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
